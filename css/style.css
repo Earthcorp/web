@@ -123,19 +123,10 @@ section {
     width: 80%;
     padding: 0 0 60px 0;
 }
-#intro .intro-info h2 {
-    font-size: 30px;
-    line-height: 40px;
+#intro .intro-info p {
+    font-size: 18px;
+    line-height: 28px;
     margin-bottom: 10px;
-}
-#intro .intro-info h2 span {
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-    #intro .intro-info p {
-        font-size: 18px;
-        line-height: 28px;
-        margin-bottom: 10px;
     }
 }
 @media (max-width: 574px) {
@@ -198,7 +189,7 @@ section {
     -o-transition: all 0.4s ease-out 0s;
     transition: all 0.4s ease-out 0s;
     position: relative;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 @media (max-width: 767px) {
 .main-btn {
