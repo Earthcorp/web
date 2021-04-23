@@ -40,7 +40,6 @@ ul,ol {
     margin: 0px;
     padding: 0px;
     list-style-type: none; 
-    font-family: "Poppins", sans-serif;
 }
 .list-unstyled li {
     font-size: 13px;
@@ -264,10 +263,42 @@ section {
 #services .card p {
     font-size: 14px;
 }
-#copyright {
+.footer_bottom {
     border-top: 1px solid #eee;
-    padding-top: 10px;
-    font-size: 14px; 
+    padding: 15px 0;
+}
+.footer_bottom p.crp {
+	float: left;
+	margin: 0;
+	color: #8d8d8c;
+	font-size: 14px;
+}
+.footer_bottom p.crp a {
+    color: #8d8d8c;
+}
+ul.bottom_menu li a {
+	color: #8d8d8c;
+}
+ul.bottom_menu li {
+	float: left;
+	font-size: 14px;
+	margin-left: 20px;
+}
+.bottom_menu {
+	float: right;
+}
+@media (max-width: 767px) {
+    .bottom_menu {
+        float: right;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+    .footer_bottom p.crp {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
 }
 .contact-form .single-form {
     margin-top: 0px; 
