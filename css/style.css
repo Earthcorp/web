@@ -447,3 +447,16 @@ ul.bottom_menu li {
 .subscribe form button:disabled {
     opacity: .5;
 }
+.modal-content {
+    padding: 40px;
+}
+.modal-title {
+    margin-left: -15px;
+}
+.modal-header {
+    margin-bottom: 10px;
+}
+.modal-content .close {
+    text-align: right; 
+    cursor: pointer;
+}
