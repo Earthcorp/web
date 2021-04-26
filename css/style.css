@@ -144,7 +144,7 @@ section {
     margin: 10px 0 0; 
 }
 #intro .intro-info .intro-btn li a.main-btn {
-    border-radius: 10px;
+    border-radius: 3px;
     overflow: hidden;
     background-color: #fff;
     -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -167,7 +167,8 @@ section {
 }
 #intro .intro-info .intro-btn li a.main-btn.btn-two {
     color: #4a4f54;
-    font-weight: 500;
+    font-weight: normal;
+    font-size: 16px;
 }
 .main-btn {
     display: inline-block;
@@ -191,7 +192,6 @@ section {
     -o-transition: all 0.4s ease-out 0s;
     transition: all 0.4s ease-out 0s;
     position: relative;
-    text-transform: uppercase;
 }
 @media (max-width: 767px) {
 .main-btn {
@@ -257,7 +257,7 @@ section {
 #services .card i {
     font-size: 40px;
     padding-top: 15px;
-    color: #4a4f54;
+    color: #6b15b6;
 }
 #services .card h5 {
     font-size: 18px;
@@ -327,11 +327,6 @@ ul.bottom_menu li {
     opacity: 1;
     color: #a4a4a4;
 }
-.contact-form .single-form textarea::-moz-placeholder,
-.contact-form .single-form input::-moz-placeholder {
-    opacity: 1;
-    color: #a4a4a4;
-}
 .contact-form .single-form textarea::-webkit-input-placeholder,
 .contact-form .single-form input::-webkit-input-placeholder {
     opacity: 1;
@@ -348,7 +343,7 @@ ul.bottom_menu li {
     color: #fff;
 }
 .contact-form .single-form .main-btn:hover {
-    background-color: #6b15b6; 
+    background-color: #501088; 
 }
 .section-header h3 {
     color: #283d50;
@@ -433,7 +428,7 @@ ul.bottom_menu li {
     top: 0;
     line-height: 1.5;
     color: white;
-    font-size: 1em;
+    font-size: 16px;
     border-radius: 0 3px 3px 0;
     border: 0;
     outline: 0;
@@ -462,82 +457,31 @@ ul.bottom_menu li {
     text-align: right; 
     cursor: pointer;
 }
-.btn-primary {
-    color: #fff;
-    background-color: #6b15b6;
-    border-color: #6b15b6;
-  }
-  
-  .btn-primary:hover {
-    color: #fff;
-    background-color: #571194;
-    border-color: #501088;
-  }
-  
-  .btn-primary:focus, .btn-primary.focus {
-    box-shadow: 0 0 0 0 rgba(107, 21, 182, 0.5);
-  }
-  
-  .btn-primary.disabled, .btn-primary:disabled {
-    color: #fff;
-    background-color: #6b15b6;
-    border-color: #6b15b6;
-  }
-  
-  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
-  .show > .btn-primary.dropdown-toggle {
-    color: #fff;
-    background-color: #501088;
-    border-color: #490e7d;
-  }
-  
-  .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
-  .show > .btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0 rgba(107, 21, 182, 0.5);
-  }
-  .btn {
+.btn-one {
     display: inline-block;
-    font-weight: 400;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-    border: 1px solid transparent;
-    padding: 0.5rem 0.8rem;
-    font-size: 0.9375rem;
-    line-height: 1.5;
-    border-radius: 0.25rem;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  }
-  
-  @media screen and (prefers-reduced-motion: reduce) {
-    .btn {
-      transition: none;
-    }
-  }
-  
-  .btn:hover, .btn:focus {
-    text-decoration: none;
-  }
-  
-  .btn:focus, .btn.focus {
-    outline: 0;
-    box-shadow: 0 0 0 0 rgba(107, 21, 182, 0.25);
-  }
-  
-  .btn.disabled, .btn:disabled {
-    opacity: 0.65;
-  }
-  
-  .btn:not(:disabled):not(.disabled) {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    padding: 0 18px;
+    font-size: 14px;
+    line-height: 34px;
+    color: #fff;
+    background: #6b15b6;
     cursor: pointer;
-  }
-  
-  a.btn.disabled,
-  fieldset:disabled a.btn {
-    pointer-events: none;
-  }
-  
+    position: relative;
+}
+.btn-one:hover {
+    color: #fff;
+    background-color: #501088;
+}
+.btn-one a:hover, input:focus, textarea:focus, button:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: none !important;
+}
