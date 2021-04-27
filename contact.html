@@ -80,7 +80,7 @@
                         <div class="navbar-nav">
                             <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
                             <a href="services.html" class="nav-item nav-link">Services</a>
-                            <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                            <a href="contact.html" class="nav-item nav-link">Contact us</a>
                             <a href="career.html" class="nav-item nav-link">Career</a>
                         </div>
                         <div class="navbar-nav ml-auto">
@@ -108,45 +108,37 @@
                 <div class="row">
                     <div class="col-lg-6 order-lg-1 order-2">
                         <div class="contact-form">
-                            <form id="contact-form" action="https://formspree.io/connect@earthcorp.in" method="post" name="input">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="single-form form-group">
-                                            <input type="text" name="fullname" placeholder="Your full name">
-                                        </div>
+                            <form action="https://formspree.io/connect@earthcorp.in" method="post" name="input">
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="full_name">Full Name</label>
+                                        <input type="text" name="First Name" class="form-control" placeholder="">
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="single-form form-group">
-                                            <input type="email" name="_replyto" placeholder="Your email address">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="single-form form-group">
-                                            <input type="text" name="subject" placeholder="What is your topic ?">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="single-form form-group">
-                                            <input type="text" name="phone" placeholder="Your mobile number">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="single-form form-group">
-                                            <textarea name="message" placeholder="Write your message with details .."></textarea>
-                                        <small id="passwordHelpBlock" class="form-text text-muted">
-                                        The description of the message should be 8–20 characters long. It should not contain spaces, special characters or emoji.
-                                        </small>
-                                        </div>
-                                    </div>
-                                    <p class="form-message"></p>
-                                    <div class="col-md-12">
-                                        <div class="single-form form-group text-center">
-                                            <button type="submit" class="btn-one" value="send">Send Message</button>
-                                        </div>
-                                        <input type="hidden" name="_cc" value="narendra171@gmail.com,narendra.s@earthcorp.in" />
-                                        <input type="hidden" name="_next" value="thanks.html" />
+                                    <div class="form-group col-md-6">
+                                        <label for="email">Email Address</label>
+                                        <input type="email" name="Last Name" class="form-control" placeholder="">
                                     </div>
                                 </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="text">Your Topic</label>
+                                        <input type="text" name="_replyto" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="contact_number">Contact Number</label>
+                                        <input type="text" name="Phone" class="form-control" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-12">
+                                        <label for="quary">Your Query</label>
+                                        <textarea class="form-control" name="Quary" rows="3"></textarea>
+                                        <small id="passwordHelpBlock" class="form-text text-muted">
+                                            The description of your technical skill should be 8–20 characters long, it should not contain spaces, special characters, or emoji.
+                                        </small>
+                                    </div>
+                                </div>
+                                <button type="submit" value="send" class="btn-one">Submit Quary</button>    
                             </form>
                         </div>
                     </div>
